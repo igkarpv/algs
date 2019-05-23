@@ -1,0 +1,2 @@
+# algs
+Solving algorithmic challenges
