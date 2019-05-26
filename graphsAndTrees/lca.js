@@ -41,9 +41,9 @@ var lca = function(root, p, q) {
     if (root.val == p.val || root.val == q.val) {
         return root
     }
-   
-    let leftResult = lcd(root.left, p, q)
-    let rightResult = lcd(root.right, p, q)
+
+    let leftResult = lca(root.left, p, q)
+    let rightResult = lca(root.right, p, q)
 
     if (leftResult == null)
         return rightResult
