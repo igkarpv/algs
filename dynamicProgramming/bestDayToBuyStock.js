@@ -28,6 +28,8 @@ var maxProfit = function(prices) {
     }
 
     let n = prices.length
+
+    // instead of 2 dim matrix we use flat array and accumaluate maximums between prev and curr
     let T = new Array(n).fill(0)
 
 
